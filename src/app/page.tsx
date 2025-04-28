@@ -2,6 +2,7 @@
 
 import AnimateButton from '@/components/AnimateButton';
 import AnimatedCard from '@/components/AnimatedCard';
+import PlayListAnimation from '@/components/PlayListAnimation';
 import ScrollParallex from '@/components/ScrollParallex';
 
 export default function Home() {
@@ -19,6 +20,9 @@ export default function Home() {
       </div>
       <div className="flex items-center justify-center">
         <ScrollParallex />
+      </div>
+      <div className="flex items-center justify-center">
+        <PlayListAnimation />
       </div>
       <div className="flex items-center justify-center">
         <AnimatedCard />

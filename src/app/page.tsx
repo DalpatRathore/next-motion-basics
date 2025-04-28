@@ -2,6 +2,7 @@
 
 import AnimateButton from '@/components/AnimateButton';
 import AnimatedCard from '@/components/AnimatedCard';
+import HeroTextAnimation from '@/components/HeroTextAnimation';
 import PlayListAnimation from '@/components/PlayListAnimation';
 import ScrollParallex from '@/components/ScrollParallex';
 
@@ -18,6 +19,7 @@ export default function Home() {
       <div className="flex items-center justify-center perspective-distant transform-3d">
         <AnimateButton />
       </div>
+      <HeroTextAnimation />
       <div className="flex items-center justify-center">
         <ScrollParallex />
       </div>
